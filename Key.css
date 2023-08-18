@@ -1,0 +1,269 @@
+/* Section Key-Features Start */
+
+.containor {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Features {
+    width: 100%;
+}
+
+.Features .content .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.Features .content .top h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--main-color-gray);
+    padding: 30px 0;
+    margin: 0;
+}
+
+.Features .content .top .box-img {
+    display: flex;
+    width: 75%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.Features .content .top .box-img img {
+    height: 45px;
+}
+
+
+/* Section Key-Features end */
+
+
+/* Section Key-Features start*/
+
+.middle {
+    display: flex;
+    padding-top: 100px;
+}
+
+.middle .img {
+    width: 50%;
+    text-align: center;
+}
+
+.middle .img img {
+    width: 500px;
+}
+
+.middle .desc {
+    width: 50%;
+}
+
+.middle .desc h3 {
+    color: var(--main-color-alt-blue);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 50%;
+}
+
+.middle .desc p {
+    margin: 30px 0;
+    color: var(--main-color-gray);
+    font-size: 18px;
+}
+
+.middle .desc div {
+    display: flex;
+}
+
+.middle .desc div img {
+    height: 75px;
+}
+
+.middle .desc div p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.middle .desc div span {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.middle .desc .one h4 {
+    color: var(--main-color-pink);
+    margin: 0;
+}
+
+.middle .desc .two h4 {
+    color: var(--main-color-blue);
+    margin: 0;
+}
+
+.middle .desc .three h4 {
+    color: var(--main-color-green);
+    margin: 0;
+}
+
+.Features .containor .inst {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.Features .containor .inst h3 {
+    width: 16%;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--main-color-alt-blue);
+    position: relative;
+}
+
+.Features .containor .inst h3::after {
+    content: '';
+    position: absolute;
+    right: -75px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: var(--main-color-gray)
+}
+
+.Features .containor .inst h5 {
+    width: 35%;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--main-color-gray);
+    display: flex;
+    align-items: center;
+}
+
+.Features .containor .text {
+    margin-top: 75px;
+}
+
+.Features .containor .text .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Features .containor .text div {
+    width: 250px;
+    text-align: center;
+}
+
+.Features .text div h3 {
+    font-weight: 500;
+}
+
+.Features .text p {
+    font-size: 15px;
+    color: var(--main-color-gray);
+}
+
+.Features .text .one h3 {
+    color: var(--main-color-pink);
+}
+
+.Features .text .two h3 {
+    color: var(--main-color-blue);
+}
+
+.Features .text .three h3 {
+    color: var(--main-color-green);
+}
+
+.Features .content {
+    width: 100%;
+    margin-top: 65px;
+}
+
+.Features .content .team {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Features .team img {
+    width: 450px;
+    border-radius: 15%;
+}
+
+.Features .team .details {
+    width: 350px;
+}
+
+.Features .team .details h2 {
+    color: var(--main-color-alt-blue);
+}
+
+.Features .team .details p {
+    color: var(--main-color-gray);
+    font-size: 15px;
+    text-align: center;
+}
+
+.Features .team .details a {
+    background: var(--main-color-blue);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    line-height: 3;
+}
+
+.Features .containor .area {
+    width: 100%;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.Features .containor .area span {
+    font-size: 40px;
+    color: var(--main-color-alt-blue);
+}
+
+.Features .containor .area p {
+    margin-top: 20px;
+    width: 50%;
+    font-size: 15px;
+    position: absolute;
+    left: 25%;
+    color: var(--main-color-gray);
+}
+
+.depart {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.depart .containor .content {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 250px;
+    gap: 50px;
+}
+
+.depart .content .card {
+    width: 350px;
+    text-align: center;
+}
+
+.depart .card .text span {
+    color: var(--main-color-alt-blue);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.depart .card .text p {
+    color: var(--main-color-gray);
+}
+
+
+/* Section Key-Features end */

@@ -1,0 +1,65 @@
+.containor {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.built {
+    margin-top: 150px;
+    width: 100%;
+    height: 100vh;
+}
+
+.built .containor .content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.built .content .text {
+    width: 50%;
+}
+
+.built .content .img {
+    width: 40%;
+}
+
+.built .content .img img {
+    width: 450px;
+}
+
+.built .text h3 {
+    color: var(--main-color-alt-blue);
+    font-size: 30px;
+}
+
+.built .text p {
+    color: var(--main-color-gray);
+    font-size: 18px;
+}
+
+.built .text .box {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 40px;
+}
+
+.built .text .box .card img {
+    margin-bottom: 15px;
+}
+
+.built .text .box .card .car span {
+    font-size: larger;
+    font-weight: 700;
+    color: var(--main-color-alt-blue);
+}
+
+.built .text a {
+    background-color: var(--main-color-blue);
+    color: white;
+    line-height: 3;
+    padding: 15px 30px;
+    border-radius: 30px;
+}

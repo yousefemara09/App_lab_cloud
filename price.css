@@ -1,0 +1,89 @@
+.containor {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price {
+    margin-top: 150px;
+    height: 45vh;
+    width: 100%;
+}
+
+.price .containor .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.price .content .text {
+    width: 500px;
+    text-align: center;
+}
+
+.price .content .text span {
+    font-size: 33px;
+    color: var(--main-color-alt-blue);
+    font-weight: 700;
+}
+
+.price .content .text p {
+    color: var(--main-color-gray);
+}
+
+.price-card .content {
+    height: 100vh;
+    width: 100%;
+}
+
+.price-card .content .box-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price-card .content .box-card .card {
+    background: white;
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    color: var(--main-color-alt-blue);
+    box-shadow: 0px 0px 10px #bfbfbf;
+    border-radius: 15px;
+}
+
+.price-card .content .box-card .card h3 {
+    font-weight: 300;
+}
+
+.price-card .content .box-card .card h3 span {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.price-card .content .box-card .card h2 {
+    font-size: 18px;
+}
+
+.price-card .content .box-card .card p {
+    color: var(--main-color-gray);
+    font-size: 20px;
+}
+
+.price-card .content .box-card .card .box {
+    margin-top: 65px;
+}
+
+.price-card .content .box-card .card .box h4 {
+    color: var(--main-color-gray);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.price-card .content .box-card .card a {
+    background: var(--main-color-blue);
+    color: white;
+    padding: 10px;
+    line-height: 6;
+    border-radius: 30px;
+}
